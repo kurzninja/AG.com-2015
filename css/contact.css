@@ -1,0 +1,30 @@
+
+
+label {
+	display: inline-block;
+	width: 150px;
+}
+
+p.comment_label > label {
+	width: 300px;
+	text-align: center;	
+}
+
+.radios {
+	margin-left: 30px;
+}
+
+p.comment_label {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
