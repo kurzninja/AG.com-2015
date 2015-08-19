@@ -42,12 +42,13 @@ body {
 	display: none;
 }
 #form-content {
-    position: absolute;
-    top: 168;
-    width: 100%;
-    left: 10;
-	color: FFFFFF;
-	text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    margin-top: 180px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
 }
 /* Responsive Layers */
 #ipad_layer {
@@ -366,7 +367,8 @@ width: 40%;
 font-size: 14pt;
 font-family: Helvetica, Arial, sans-serif;
 font-weight: bold;
-position: fixed;
+position: absolute;
+top: 5px;
     z-index: 2;
 }
 nav ul {
